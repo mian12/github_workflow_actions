@@ -8,4 +8,4 @@ jobs:
       - name: Hello
         run: echo "hello github action"
       - name: Display repo name
-        run:  echo "heyyy"
+        run:  echo "heyyy ${ GITHUB_REPOSITORY }"
