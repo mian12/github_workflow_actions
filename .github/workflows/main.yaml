@@ -8,6 +8,6 @@ jobs:
       - name: Hello
         run: echo "hello github action"
       - name: Display repo name
-        run: echo "heyyy $REPO"
+        run: echo "heyyy "
         env:
           REPO: ${{ github.repository }}
